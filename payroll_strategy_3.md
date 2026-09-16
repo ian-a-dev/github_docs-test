@@ -13,11 +13,11 @@ importantly, what we are not.
 
 Three things are true today:
 
-- Pay runs are reliable but slow to correct. A mistake found after submission
+1. Pay runs are reliable but slow to correct. A mistake found after submission
   requires a manual off-cycle run.
-- Multi-state tax handling works, but the rules live in code rather than config,
+2. Multi-state tax handling works, but the rules live in code rather than config,
   so a jurisdiction change is a deploy.
-- Reporting is exportable but not queryable. Customers pull CSVs and rebuild the
+3. Reporting is exportable but not queryable. Customers pull CSVs and rebuild the
   same pivot tables by hand.
 
 ## Bets
