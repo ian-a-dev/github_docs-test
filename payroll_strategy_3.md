@@ -33,7 +33,7 @@ Three things are true today:
 We are explicitly **not** doing these, and saying so here so the question does
 not get re-litigated each quarter:
 
-- Building our own tax-filing engine. We integrate; we do not file.
+- Building our own tax-filing engine. We integrate, and we do not file.
 - International payroll. Out of scope until the domestic corrections work lands.
 - A general-purpose report builder. Bet 3 exposes data; it does not ship a UI.
 
