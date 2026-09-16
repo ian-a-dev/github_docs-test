@@ -13,11 +13,11 @@ importantly, what we are not.
 
 Three things are true today:
 
-1. Pay runs are reliable but slow to correct. A mistake found after submission
+- Pay runs are reliable but slow to correct. A mistake found after submission
   requires a manual off-cycle run.
-2. Multi-state tax handling works, but the rules live in code rather than config,
+- Multi-state tax handling works, but the rules live in code rather than config,
   so a jurisdiction change is a deploy.
-3. Reporting is exportable but not queryable. Customers pull CSVs and rebuild the
+- Reporting is exportable but not queryable. Customers pull CSVs and rebuild the
   same pivot tables by hand.
 
 ## Bets
@@ -33,7 +33,7 @@ Three things are true today:
 We are explicitly **not** doing these, and saying so here so the question does
 not get re-litigated each quarter:
 
-- Building our own tax-filing engine. We integrate, and we do not file.
+- Building our own tax-filing engine. We integrate; we do not file.
 - International payroll. Out of scope until the domestic corrections work lands.
 - A general-purpose report builder. Bet 3 exposes data; it does not ship a UI.
 
